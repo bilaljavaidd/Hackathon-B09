@@ -1,0 +1,164 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgba(200, 214, 214, 0.985);
+}
+
+ nav{
+    background-color: rgb(187, 0, 220);
+    display: flex;
+    justify-content: center;
+    height: 50px;
+    
+}
+
+#navbaritems{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;  
+    color: rgb(255, 255, 255);
+}
+
+#navbaritems button{
+    font-size: 25px;
+    font-family: 'Nanum Myeongjo', serif;
+    background-color: transparent;
+    border: none;
+
+}
+
+
+#goodMorning{
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    height: 80px;
+    
+}
+
+#goodMorning h1{
+
+    margin-left: 30px;
+    font-family: 'Poppins', sans-serif; 
+}
+
+#allBlogs{
+    margin-left: 100px;
+    margin-top: 50px;
+    font-family: 'Poppins', sans-serif;  
+    
+}
+
+
+#avatar{
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+}
+
+.mainPostArea{ 
+    width: 100%;
+    height: 100vh;
+    display: flex;
+
+}
+
+.rightSide{
+    height: 100vh;
+    padding: 0%;
+}
+
+.leftSide{
+    height: 100vh;
+   
+}
+
+#profileUserPostName{
+    display: flex;
+    justify-content: space-between;
+    width: 390px;
+    /* margin-top: 15px; */
+    padding: 10px;
+    padding-top: 10px;
+}
+
+#titleNameDate{
+    margin-left: 5px;
+}
+
+#title{
+    font-size: 30px;
+}
+
+#PostuserNameDate{
+    font-size: 15px;
+    color: rgb(85, 84, 83);
+}
+
+
+#postingArea{
+    background-color: rgba(148, 14, 14, 0.103);
+    height: 450px;
+    border-radius: 10px;
+    margin-top: 30px;
+    margin-left: 50px;
+}
+
+
+#description{
+    margin-top: 20px;
+    padding: 18px;
+}
+
+.loginBtn:hover{
+    cursor: pointer !important; 
+    
+}
+
+#inputmainbox{
+
+height: 300px;
+width: 42%;
+background-color: rgb(255, 255, 255);
+margin-left: 19%;
+border-radius: 10px;
+box-shadow: 1px 3px 10px rgba(85, 83, 83, 0.8);
+
+}
+
+#inputmainbox{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.chotainput{
+    width: 90%;
+    border-radius: 5px;
+    height: 35px;
+    padding-left: 10px;
+}
+
+#baraInput{
+    width: 90%;
+    border-radius: 5px;
+    padding-left: 10px;
+    padding-top: 10px;
+
+}
+
+.publishBtn{
+    background-color: rgb(238, 194, 255)  !important;
+    color: rgb(0, 0, 0) !important ;
+}
+
+
+
